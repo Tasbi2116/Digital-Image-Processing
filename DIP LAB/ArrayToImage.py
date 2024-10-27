@@ -8,6 +8,5 @@ image_array = np.load('image_array.npy')
 
 # Convert the NumPy array back to an image
 image = Image.fromarray(image_array)
-
 # Show the image
 image.show()
